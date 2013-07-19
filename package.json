@@ -1,6 +1,6 @@
 {
   "name": "snockets-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Snockets command-line tool.",
   "keywords": [
     "snockets",
@@ -22,7 +22,9 @@
     "bin",
     "lib"
   ],
-  "bin": "bin/snockets",
+  "bin": {
+    "snockets": "bin/snockets"
+  },
   "repository": {
     "type": "git",
     "url": "git://github.com/undashes/snockets-cli.git"
